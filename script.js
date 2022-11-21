@@ -39,6 +39,8 @@ let book_card = document.createElement('div');
 book_card.id = 'book_card';
 book_catalog.append(book_card);
 
+let book_name = document.createElement('div');
+
 /*
 fetch('books.json') //path to the file with json data
         .then(response => {
